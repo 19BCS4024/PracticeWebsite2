@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+/* Nav Bar */
+#sidebar {
+    display: flex;
+    height: 100vh;
+}
+
+.nav-img {
+    width: 8rem;
+}
+
+.nav-item {
+    padding: 2rem 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    height: 100vh;
+    background-color: #222;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: black;
+}
+
+.home {
+    background-color: black;
+}
+
+.home:hover {
+    background-color: grey;
+}
+
+/* Home */
+
+.wrapper {
+    color: white;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background-position: center center;
+}
+
+.text-content h1 {
+    font-weight: 100;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 64px;
+    margin: 0;
+    color: #fff;
+}
+.text-content p{
+    padding-top: 1rem;
+}
+.bar-content li{
+   list-style: none;
+}
+.bar-content h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.about-area{
+    margin: 4rem 7.5rem;
+}
+.about-area h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+.about-area hr{
+    width: 12rem;
+}
+.about-area p{
+    line-height: 1.5rem;
+    color: grey;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 1.5rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+
+}
+.bar span{
+        height: 2rem;
+        float: left;
+        background: #fff9;    
+}
+.html{
+    width: 90%;
+}
+.gaming{
+    width: 80%;
+}
+.web{
+    width: 70%;
+}
+.english{
+    width: 84%;
+}
